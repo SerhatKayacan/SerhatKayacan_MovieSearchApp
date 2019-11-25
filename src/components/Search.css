@@ -21,7 +21,7 @@ img {
   height: 300px;
 }
 td i {
-  font-size: 1.5em;
+  font-size: 2em;
   transition: 0.2s;
 }
 td i:hover {
@@ -29,4 +29,14 @@ td i:hover {
 }
 i.fas {
   color: #f50057;
+}
+.searchTop {
+  margin-top: 20px;
+  display: flex;
+}
+.mySearchArea {
+  display: flex;
+}
+.searchInput {
+  max-width: 400px;
 }
