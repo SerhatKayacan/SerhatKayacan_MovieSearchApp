@@ -10,12 +10,12 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <ul class="navbar-nav">
-              <li class="nav-item">
+          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <ul className="navbar-nav">
+              <li className="nav-item">
                 <Link to="/">Home</Link>
               </li>
-              <li class="nav-item">
+              <li className="nav-item">
                 <Link to="/favorites">Favorites</Link>
               </li>
             </ul>
